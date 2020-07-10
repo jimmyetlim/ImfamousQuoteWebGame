@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGame", "APIGame.csproj", "{2C5B7314-7312-4C3F-B8E8-B1A386148F23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FEDDA279-2DFF-4ADF-BDC2-5D04C12E2BA2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5B7314-7312-4C3F-B8E8-B1A386148F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5B7314-7312-4C3F-B8E8-B1A386148F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5B7314-7312-4C3F-B8E8-B1A386148F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5B7314-7312-4C3F-B8E8-B1A386148F23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B797F5E-7E0A-415F-BD21-DC0461A8FE09}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Play";
+}
+
+<h2>JoinGame</h2>
+<form action="https://localhost:44390/game/new" method="post">
+    <label for="fname">gameId:</label><input type="text" id="gameId" name="gameId"><br>
+    <label for="fname">password:</label><input type="text" id="gameCode" name="gameCode"><br>
+    <label for="fname">playerID:</label><input type="text" id="playerID" name="playerID"><br>
+    <label for="fname">answer:</label><input type="text" id="answer" name="answer"><br>
+    <input type="submit" value="Submit">
+</form>

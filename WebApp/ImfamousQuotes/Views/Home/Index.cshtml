@@ -1,0 +1,22 @@
+﻿@{
+	ViewBag.Title = "New Game";
+	String[] name = { "Game","Pants", "Sherk","face"};
+    Random random = new Random();
+    int randomIndex = random.Next(0, 4);
+    string quote  = name[randomIndex];
+
+
+}
+
+    <div class="jumbotron">
+        <h2>Here We Go! It time to put your ____<u>@quote</u>_____ on!</h2>
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+
+        <p>
+            <img src="~/image/CardBackground.png" />
+        </p>
+    </div>
+</div>
